@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    gap: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 48rem) {
+    html {
+        font-size: 0.8125rem;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+        margin: 1rem;
+    }
+}

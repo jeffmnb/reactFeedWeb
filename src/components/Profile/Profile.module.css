@@ -1,0 +1,49 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContainerHorizontal {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    background-color: var(--gray-800);
+    height: 4.2rem;
+    width: 4.2rem;
+
+    border: 0.125rem solid var(--green-400);
+    border-radius: 0.3125rem;
+
+    padding: 0.0938rem;
+    object-fit: cover;
+}
+
+.userName {
+    color: var(--gray-100);
+    font-weight: 600;
+    line-height: 160%;
+    font-size: 1.0625rem;
+}
+
+.job {
+    color: var(--gray-400);
+    font-size: 0.875rem;
+    line-height: 160%;
+    font-size: 0.9375rem;
+}
+
+.infoContainerHorizontal {
+    text-align: left;
+}
+
+.infoContainer {
+    text-align: center;
+    margin-top: 1rem;
+}

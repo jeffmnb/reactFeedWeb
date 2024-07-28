@@ -1,0 +1,62 @@
+.aside {
+    border-radius: 0.5rem;
+    background-color: var(--gray-800);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 18.125rem;
+}
+
+.cover {
+    height: 4.5rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileContainer {
+    position: absolute;
+    top: 2.3rem;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    width: 100%;
+    border-top: 2px solid var(--gray-600);
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.editButton {
+    background-color: transparent;
+
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border: 0.0625rem solid var(--green-400);
+    border-radius: 0.5rem;
+
+    font-size: 0.875rem;
+    color: var(--green-400);
+    font-weight: 700;
+
+    transition: color 0.2s, background-color 0.2s;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--green-500);
+        color: var(--white);
+    }
+}
